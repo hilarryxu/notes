@@ -70,4 +70,7 @@ CREATE TABLE IF NOT EXISTS "xadmin_log" (
   "user_id" integer NOT NULL REFERENCES "auth_user" ("id"),  // 用户ID
   "action_flag" varchar(32) NOT NULL  // 动作标志
 );
+
+-- 示例：
+1|2017-11-21 07:31:41.561556|192.168.133.115|1|admin|修改 last_login 和 first_name|1|1|change
 ```
